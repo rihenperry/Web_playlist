@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta  charset="utf-8" >
-        <title>html 5</title>
+        <title>Web Playlist</title>
+        <link rel="stylesheet" href="playlist.css" >
+        <script src="playlist.js" charset="utf-8"></script>
         <script>
-
         var init = function init() {
             document.getElementById("main_content").innerHTML = "script changed!";
         };
         window.onload = init;
-
         </script>
     </head>
     <body id="main_content">
-        
+        <form id="" action="" method="" accept-charset="utf-8">
+            <input type="text" name="song_fied" id="song_fied" value="" placeholder="Song name" >
+            <input type="button" name="add_button" id="add_button" value="Add song" />               
+        </form>
     </body>
 </html>
 
